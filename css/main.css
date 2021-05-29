@@ -39,3 +39,6 @@ position: absolute;
 min-width: 140px;
 }
 
+nav-main li:hover > ul{
+   display: block;
+}
