@@ -8,3 +8,34 @@ body {
 background: #21042e;
 color: aquamarine
 }
+
+.container {
+   margin: auto;
+width: 500px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ul {
+list-style: none;
+}
+
+.nav-main li a {
+     background-color: #5f5;
+    text-decoration: none;
+    padding: 3px 15px;
+    display: block;
+}
+
+.nav-main li a:hover {
+  background-color:#1b64c4;
+}
+.nav-main > li {
+float: left;
+}
+
+.nav-main li ul {
+/*display: none;*/
+position: absolute;
+min-width: 140px;
+}
+
