@@ -28,17 +28,27 @@ list-style: none;
 
 .nav-main li a:hover {
   background-color:#1b64c4;
+  border-radius: 15px;
 }
 .nav-main > li {
 float: left;
 }
 
 .nav-main li ul {
-/*display: none;*/
+display: none;
 position: absolute;
 min-width: 140px;
 }
 
-nav-main li:hover > ul{
+.nav-main li:hover > ul{
    display: block;
+}
+
+.nav-main li ul li {
+position: relative;
+}
+
+.nav li ul li ul {
+right: -140px;
+top: 0px;
 }
