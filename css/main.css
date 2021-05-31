@@ -13,3 +13,29 @@ color: aquamarine
   text-align: center;
   color: #5f5
 }
+
+.buscar {
+   position: absolute;
+padding: 5px;
+}
+
+.buscar input {
+  width: 240px;
+height: 40px;
+padding: 0 20px;
+font-size: 18px;
+color: #000;
+outline: none;
+border: 1px solid silver;
+border-radius: 25px;
+}
+
+.btn {
+position: absolute;
+top: 0;
+right: 0;
+width: 55px;
+height: 55px;
+line-height: 55px;
+tex
+}
