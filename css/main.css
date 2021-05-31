@@ -6,7 +6,8 @@ padding: 0px;
 
 body {
 background: #21042e;
-color: aquamarine
+color: aquamarine;
+font-family: sans-serif;
 }
 
 .titulo {
@@ -14,28 +15,21 @@ color: aquamarine
   color: #5f5
 }
 
-.buscar {
-   position: absolute;
-padding: 5px;
-}
-
-.buscar input {
-  width: 240px;
-height: 40px;
-padding: 0 20px;
-font-size: 18px;
-color: #000;
+input.src{
+padding: 9px 1px 9px 1px;
 outline: none;
-border: 1px solid silver;
-border-radius: 25px;
+font-size: 18px;
+border-radius: 15px;
+color: #444;
+border: 3px solid #218292;
+background: #fff url("img/search-icon.png") no-repeat 9px center;
+width: 100px;
+transition: all .5s;
 }
 
-.btn {
-position: absolute;
-top: 0;
-right: 0;
-width: 55px;
-height: 55px;
-line-height: 55px;
-tex
+input.src:hover{
+width: 180px;
+background-color: #fff;
+border-color: #8c110b3;
+border-shadow: 0 0 5px #6dcff680;
 }
