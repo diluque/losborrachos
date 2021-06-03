@@ -6,16 +6,33 @@
     <meta name="" content="">
     <title>Los Borrachos</title>
     <link rel="icon" href="img/borrachitos.jpg">
+    <link rel="stylesheet" href="css/main.css">
+    <script>
     
-
-<link rel="stylesheet" href="css/main.css">
+    var trompeta = new Audio();
+    trompeta.src = "notas/trompeta.mp3";
+    function playBtnSound(num) {
+       trompeta.play();
+    }
+    
+    </script>
   </head>
   <body>
-<button onmousedown="sonido.play()">Enviar datos</button>
-<script type="text/javascript">
+    <nav>
+<button onclick="playBtnSound(1)">Trompeta</button>
+<button onclick="playBtnSound(2)">Trompeta</button>
+<button onclick="playBtnSound(3)">Trompeta</button>
+<button onclick="playBtnSound(4)">Trompeta</button>
+<button onclick="playBtnSound(5)">Trompeta</button>
+<button onclick="playBtnSound(6)">Trompeta</button>
+<button onclick="playBtnSound(7)">Trompeta</button>
 
+
+
+
+</nav>
 var sonido = new audio();
-sonido.src = sonido.mp3;
+sonido.src = notas/primera.mp3;
 
 </script>
 <div id="sidemenu" class="menu-collapsed"></div>
