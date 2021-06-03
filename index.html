@@ -7,34 +7,22 @@
     <title>Los Borrachos</title>
     <link rel="icon" href="img/borrachitos.jpg">
     <link rel="stylesheet" href="css/main.css">
-    <script>
-    
-    var trompeta = new Audio();
-    trompeta.src = "notas/trompeta.mp3";
-    function playBtnSound(num) {
-       trompeta.play();
-    }
-    
-    </script>
+   
   </head>
   <body>
-    <nav>
-<button onclick="playBtnSound(1)">Trompeta</button>
-<button onclick="playBtnSound(2)">Trompeta</button>
-<button onclick="playBtnSound(3)">Trompeta</button>
-<button onclick="playBtnSound(4)">Trompeta</button>
-<button onclick="playBtnSound(5)">Trompeta</button>
-<button onclick="playBtnSound(6)">Trompeta</button>
-<button onclick="playBtnSound(7)">Trompeta</button>
-
-
-
-
-</nav>
-var sonido = new audio();
-sonido.src = notas/primera.mp3;
-
-</script>
+<audio src="" controls id="audioPlayer">
+Archivo no soportado
+</audio>
+<ul id="playlist">
+  <li><a href="notas/trompeta.mp3">Trompeta</a></li>
+  <li><a href="notas/primera.mp3">Primera</a></li>
+  <li><a href="notas/segunda.mp3">Segunda</a></li>
+  <li><a href="notas/tercera.mp3">tercera</a></li>
+  <li><a href="notas/cuarta.mp3">cuarta</a></li>
+  <li><a href="notas/quinta.mp3">Quinta</a></li>
+  <li><a href="notas/sexta.mp3">Sexta</a></li>
+</ul>
+<script src=""></script>
 <div id="sidemenu" class="menu-collapsed"></div>
 <div id="header">
     <div id="title"><span>LosBorrachos</span></div>
